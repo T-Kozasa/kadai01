@@ -1,0 +1,113 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;/*16px ×　62.5% = 10px */
+}
+body{
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+}
+/*--header--*/
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: auto;
+}
+.head-title{
+    font-size: 7rem;
+    margin-bottom: 50px;
+    -webkit-box-reflect: below -20px -webkit-gradient(linear, left bottom, left top, from(#FFF), to(transparent));
+}
+.sub-title{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/*--ルール--*/
+.rule{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+.rule-title{
+    font-size: 22px;
+    border-left: 5px solid red;
+    padding-left: 1%;
+    margin-bottom: 10px;
+}
+.rule-info{
+    font-size: 15px;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+/*--バルーン--*/
+.flex{
+    display: flex;
+}
+.balloon-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--得られる金額--*/
+.flex-text1{
+    display: flex;
+    flex-flow: column;
+    background-color:#ccc;
+    width: 25%;
+    padding-top: 80px;
+    border-right: #333333 solid 5px;
+}
+
+/*--全体の結果--*/
+.flex-text2{
+    display: flex;
+    flex-flow: column;
+    background-color:#ccc;
+    width: 25%;
+    padding-top: 30px;
+}
+.PN{
+    padding-bottom: 20px;
+    padding-top: 10%;
+}
+.PN-title{
+    text-align: center;
+    padding: 0;
+    font-size: 2.5rem;
+}
+.flex-text3{
+    display: inline-block;
+    justify-content: flex-end;
+}
+.PN-result{
+    font-size: 4rem;
+    margin: 20px 20px;
+    padding-left: 30%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+.Money-title{
+    text-align: center;
+    padding: 0;
+    font-size: 2.5rem;
+}
+.Money-result{
+    font-size: 4rem;
+    margin: 20px 20px;
+    padding: 0;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.Money-result1{
+    padding-left: 30%;
+}
+

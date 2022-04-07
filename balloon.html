@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dev23 js01回目</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="balloon.css" />
+  </head>
+  <body>
+      <!--htmlを記載-->
+      <header class="header">
+          <h1 class="head-title">
+              ALL or NOTHING
+          </h1>
+          <h2 class="sub-title">
+              バルーンを破らずにお金を稼ごう！
+          </h2>
+      </header>
+      <main>
+        <section class="rule">
+            <h2 class="rule-title">
+                ルール
+            </h2>
+            <p class="rule-info">
+                1.バルーンを膨らませましょう<br>
+                2.バルーンを膨らませた回数ごとに100円が手に入ります。<br>
+                3.自分がもういいやと思ったら、「collect」ボタンを押しましょう<br>
+                4.もし「collect」ボタンを押す前にバルーンが割れてしまったら、一銭も手に入りません。<br>
+                5.上記の作業を15回繰り返して、いくら手に入るかを試しましょう！<br>
+            </p>
+        </section>
+        <section class="flex">
+            <div class="balloon-img">
+                <p class="view">
+                    <img src="ballimg/balloon.jpg" alt="balloon">
+                </p>
+            </div>
+            <div class="flex-text1">
+                <div>
+                    <h2 class="Money-title">
+                        手に入る金額
+                    </h2>
+                    <p class="Money-result PNmoney-result">
+                        0
+                    </p>
+                    <p class="Money-title">
+                        円
+                    </p>
+                </div>
+            </div>
+            <div class="flex-text2">
+                <div class="PN">
+                    <h2 class="PN-title">
+                        挑戦した回数
+                    </h2>
+                    <p class="PN-result flex-text3">
+                        0
+                    </p>
+                    <p class="flex-text3">
+                        回
+                    </p>
+                </div>
+                <div>
+                    <h2 class="Money-title">
+                        稼いだお金
+                    </h2>
+                    <p class="Money-result CollectMoney-result flex-text3 Money-result1">
+                        0
+                    </p>
+                    <p class="flex-text3">
+                        円
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+        <section>
+            <div class="flex">
+                <button class="balloon-img PumpButton-img">
+                    <img src="ballimg/PumpButton.jpg" alt="PumpButton">
+                </button>
+                <button class="balloon-img CollectButton-img">
+                    <img src="ballimg/CollectButton.jpg" alt="CollectButton">
+                </button>
+            </div>
+            
+        </section>
+      </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="balloon.js"></script>
+  </body>
+</html>
